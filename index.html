@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | News homepage</title>
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo"><img src="assets/images/logo.svg" alt="company-logo" /></div>
+    <ul class="nav-items">
+      <li class="nav-item"><a class="link" id="home" href="#">Home</a></li>
+      <li class="nav-item"><a class="link" id="new" href="#">New</a></li>
+      <li class="nav-item"><a class="link" id="popular" href="#">Popular</a></li>
+      <li class="nav-item"><a class="link" id="trending" href="#">Trending</a></li>
+      <li class="nav-item"><a class="link" id="categories" href="#">Categories</a></li>
+    </ul>
+
+    <button type="button" class="menu-btn" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false"></button>
+  </nav>
+
+  <main class="main">
+
+    <div class="section intro">
+      <picture class="web3-img">
+        <source srcset="./assets/images/image-web-3-desktop.jpg" media="(min-width: 600px)">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="image-web-3-mobile" />
+      </picture>
+      <div class="intro-title">
+        <h1>The Bright Future of Web 3.0?</h1>
+      </div>
+      <div class="read-more">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+          But is it really fulfilling its promise?</p>
+        <button type="button" class="readmore-btn">Read more</button>
+      </div>
+    </div>
+
+    <div class="section news">
+      <h2 class="new-title">New</h2>
+
+      <ul class="news-items flex-div">
+
+        <li class="news-item flex-div">
+          <a class="news-link" href="#">Hydrogen VS Electric Cars</a>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </li>
+
+        <li class="news-item flex-div">
+          <a class="news-link" href="#">The Downsides of AI Artistry</a>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </li>
+
+        <li class="news-item flex-div">
+          <a class="news-link" href="#">Is VC Funding Drying Up?</a>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="section popular">
+      <ul class="popular-items">
+
+        <li class="popular-item flex-div">
+          <img src="assets/images/image-retro-pcs.jpg" alt="image of a retro pc" />
+          <div class="pop-info flex-div">
+            <h3 class="pop-number">01</h3>
+            <a class="popular-link" href="#">Reviving Retro PCs</a>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </li>
+
+        <li class="popular-item flex-div">
+          <img src="assets/images/image-top-laptops.jpg" alt="image of laptop keyboard" />
+          <div class="pop-info flex-div">
+            <h3 class="pop-number">02</h3>
+            <a class="popular-link" href="#">Top 10 Laptops of 2022</a>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </li>
+
+        <li class="popular-item flex-div">
+          <img src="assets/images/image-gaming-growth.jpg" alt="image of a PS5 controller" />
+          <div class="pop-info flex-div">
+            <h3 class="pop-number">03</h3>
+            <a class="popular-link" href="#">The Growth of Gaming</a>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+  </main>
+  
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
