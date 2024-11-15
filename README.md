@@ -25,13 +25,13 @@ Users should be able to:
 
 ![Mobile-View](./screenshots/Mobile-View.png)
 
-![Desktop-View](./screenshots/Destop-View.png)
+![Desktop-View](./screenshots/Desktop-View.png)
 
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Jack-OC/News-Homepage-Main)
+- Live Site URL: (https://jack-oc.github.io/News-Homepage-Main/)
 
 ## My process
 
